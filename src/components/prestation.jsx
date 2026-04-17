@@ -62,7 +62,7 @@ export default function Prestation() {
         }}
       >
         {prestations.map((prestation) => (
-          <Card
+          <Cards
             key={prestation.id}
             title={prestation.title}
             text={prestation.text}
