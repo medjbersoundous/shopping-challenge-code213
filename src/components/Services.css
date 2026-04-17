@@ -1,8 +1,4 @@
 
-body{
-    background-color: cadetblue;
-}
-
 .box {
     display: flex;
     flex-direction: column;
@@ -17,8 +13,8 @@ body{
     
 }
 .page {
-    background-color: rgb(247, 247, 247);
-    height: 500hv;
+    background-color: rgb(240, 225, 225);
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: auto;
