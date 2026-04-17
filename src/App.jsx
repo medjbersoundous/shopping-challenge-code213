@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+
+import React from "react";
+import Home from "./pages/Home";
 import Services from './components/Services'
-function App() {
-
+export default function App() {
   return (
-    <>
-  
-    <Services />
-    </>
-  )
-}
 
-export default App
+      <div>
+        <Home /> 
+    <Services />
+      </div>
+  );
+}
